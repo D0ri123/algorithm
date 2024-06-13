@@ -18,6 +18,7 @@ public class Problem01 {
         boolean[][] result = new boolean[101][101];
         boolean[][] mock = new boolean[3][3];
 
+
         for (int i=0; i<n; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
